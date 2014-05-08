@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5C65451736AF9A003CD76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C65441736AF9A003CD76E /* UIKit.framework */; };
+		8A5C65471736AF9A003CD76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C65461736AF9A003CD76E /* Foundation.framework */; };
+		8A5C65491736AF9A003CD76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5C65481736AF9A003CD76E /* CoreGraphics.framework */; };
+		8A5C654F1736AF9A003CD76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C654D1736AF9A003CD76E /* InfoPlist.strings */; };
+		8A5C65511736AF9A003CD76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C65501736AF9A003CD76E /* main.m */; };
+		8A5C65551736AF9A003CD76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C65541736AF9A003CD76E /* AppDelegate.m */; };
+		8A5C65571736AF9A003CD76E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C65561736AF9A003CD76E /* Default.png */; };
+		8A5C65591736AF9A003CD76E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C65581736AF9A003CD76E /* Default@2x.png */; };
+		8A5C655B1736AF9A003CD76E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C655A1736AF9A003CD76E /* Default-568h@2x.png */; };
+		8A5C655E1736AF9A003CD76E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5C655D1736AF9A003CD76E /* ViewController.m */; };
+		8A5C65611736AF9A003CD76E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5C655F1736AF9A003CD76E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A5C65411736AF9A003CD76E /* helloiphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloiphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5C65441736AF9A003CD76E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A5C65461736AF9A003CD76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A5C65481736AF9A003CD76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A5C654C1736AF9A003CD76E /* helloiphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloiphone-Info.plist"; sourceTree = "<group>"; };
+		8A5C654E1736AF9A003CD76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A5C65501736AF9A003CD76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A5C65521736AF9A003CD76E /* helloiphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloiphone-Prefix.pch"; sourceTree = "<group>"; };
+		8A5C65531736AF9A003CD76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A5C65541736AF9A003CD76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A5C65561736AF9A003CD76E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A5C65581736AF9A003CD76E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A5C655A1736AF9A003CD76E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A5C655C1736AF9A003CD76E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A5C655D1736AF9A003CD76E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A5C65601736AF9A003CD76E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5C653E1736AF9A003CD76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C65451736AF9A003CD76E /* UIKit.framework in Frameworks */,
+				8A5C65471736AF9A003CD76E /* Foundation.framework in Frameworks */,
+				8A5C65491736AF9A003CD76E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5C65381736AF9A003CD76E = {
+			isa = PBXGroup;
+			children = (
+				8A5C654A1736AF9A003CD76E /* helloiphone */,
+				8A5C65431736AF9A003CD76E /* Frameworks */,
+				8A5C65421736AF9A003CD76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5C65421736AF9A003CD76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C65411736AF9A003CD76E /* helloiphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5C65431736AF9A003CD76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C65441736AF9A003CD76E /* UIKit.framework */,
+				8A5C65461736AF9A003CD76E /* Foundation.framework */,
+				8A5C65481736AF9A003CD76E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A5C654A1736AF9A003CD76E /* helloiphone */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C65531736AF9A003CD76E /* AppDelegate.h */,
+				8A5C65541736AF9A003CD76E /* AppDelegate.m */,
+				8A5C655C1736AF9A003CD76E /* ViewController.h */,
+				8A5C655D1736AF9A003CD76E /* ViewController.m */,
+				8A5C655F1736AF9A003CD76E /* ViewController.xib */,
+				8A5C654B1736AF9A003CD76E /* Supporting Files */,
+			);
+			path = helloiphone;
+			sourceTree = "<group>";
+		};
+		8A5C654B1736AF9A003CD76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C654C1736AF9A003CD76E /* helloiphone-Info.plist */,
+				8A5C654D1736AF9A003CD76E /* InfoPlist.strings */,
+				8A5C65501736AF9A003CD76E /* main.m */,
+				8A5C65521736AF9A003CD76E /* helloiphone-Prefix.pch */,
+				8A5C65561736AF9A003CD76E /* Default.png */,
+				8A5C65581736AF9A003CD76E /* Default@2x.png */,
+				8A5C655A1736AF9A003CD76E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5C65401736AF9A003CD76E /* helloiphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5C65641736AF9A003CD76E /* Build configuration list for PBXNativeTarget "helloiphone" */;
+			buildPhases = (
+				8A5C653D1736AF9A003CD76E /* Sources */,
+				8A5C653E1736AF9A003CD76E /* Frameworks */,
+				8A5C653F1736AF9A003CD76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloiphone;
+			productName = helloiphone;
+			productReference = 8A5C65411736AF9A003CD76E /* helloiphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5C65391736AF9A003CD76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Duger;
+			};
+			buildConfigurationList = 8A5C653C1736AF9A003CD76E /* Build configuration list for PBXProject "helloiphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A5C65381736AF9A003CD76E;
+			productRefGroup = 8A5C65421736AF9A003CD76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5C65401736AF9A003CD76E /* helloiphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5C653F1736AF9A003CD76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C654F1736AF9A003CD76E /* InfoPlist.strings in Resources */,
+				8A5C65571736AF9A003CD76E /* Default.png in Resources */,
+				8A5C65591736AF9A003CD76E /* Default@2x.png in Resources */,
+				8A5C655B1736AF9A003CD76E /* Default-568h@2x.png in Resources */,
+				8A5C65611736AF9A003CD76E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5C653D1736AF9A003CD76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C65511736AF9A003CD76E /* main.m in Sources */,
+				8A5C65551736AF9A003CD76E /* AppDelegate.m in Sources */,
+				8A5C655E1736AF9A003CD76E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A5C654D1736AF9A003CD76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5C654E1736AF9A003CD76E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A5C655F1736AF9A003CD76E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5C65601736AF9A003CD76E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A5C65621736AF9A003CD76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A5C65631736AF9A003CD76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A5C65651736AF9A003CD76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloiphone/helloiphone-Prefix.pch";
+				INFOPLIST_FILE = "helloiphone/helloiphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A5C65661736AF9A003CD76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloiphone/helloiphone-Prefix.pch";
+				INFOPLIST_FILE = "helloiphone/helloiphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5C653C1736AF9A003CD76E /* Build configuration list for PBXProject "helloiphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5C65621736AF9A003CD76E /* Debug */,
+				8A5C65631736AF9A003CD76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5C65641736AF9A003CD76E /* Build configuration list for PBXNativeTarget "helloiphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5C65651736AF9A003CD76E /* Debug */,
+				8A5C65661736AF9A003CD76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5C65391736AF9A003CD76E /* Project object */;
+}

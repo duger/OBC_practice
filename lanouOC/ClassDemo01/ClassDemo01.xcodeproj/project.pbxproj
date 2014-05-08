@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A36F12E17D4358A00BB9342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A36F12D17D4358A00BB9342 /* Foundation.framework */; };
+		8A36F13117D4358A00BB9342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36F13017D4358A00BB9342 /* main.m */; };
+		8A36F13517D4358A00BB9342 /* ClassDemo01.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A36F13417D4358A00BB9342 /* ClassDemo01.1 */; };
+		8A36F13D17D43CF600BB9342 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36F13C17D43CF600BB9342 /* Person.m */; };
+		8A36F14017D43E4900BB9342 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36F13F17D43E4900BB9342 /* Car.m */; };
+		8A36F14317D441D200BB9342 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36F14217D441D200BB9342 /* Student.m */; };
+		8AAF7DE017D49976003F041F /* Shose.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DDF17D49976003F041F /* Shose.m */; };
+		8AAF7DE317D49A50003F041F /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DE217D49A50003F041F /* Medicine.m */; };
+		8AAF7DE917D4B4BA003F041F /* Lining.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DE817D4B4BA003F041F /* Lining.m */; };
+		8AAF7DEC17D4B4CB003F041F /* Anta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DEB17D4B4CB003F041F /* Anta.m */; };
+		8AAF7DEF17D4B4D4003F041F /* Nike.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DEE17D4B4D4003F041F /* Nike.m */; };
+		8AAF7DF217D4B4E9003F041F /* Adidas.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DF117D4B4E9003F041F /* Adidas.m */; };
+		8AAF7DF517D4B4F2003F041F /* puma.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DF417D4B4F2003F041F /* puma.m */; };
+		8AAF7DF817D4B509003F041F /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DF717D4B509003F041F /* BMW.m */; };
+		8AAF7DFB17D4B521003F041F /* Banz.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DFA17D4B521003F041F /* Banz.m */; };
+		8AAF7DFE17D4B535003F041F /* Audi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7DFD17D4B535003F041F /* Audi.m */; };
+		8AAF7E0117D4B560003F041F /* Vw.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E0017D4B560003F041F /* Vw.m */; };
+		8AAF7E0417D4B5F7003F041F /* Cc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E0317D4B5F7003F041F /* Cc.m */; };
+		8AAF7E0717D4B61C003F041F /* GanMaoQing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E0617D4B61C003F041F /* GanMaoQing.m */; };
+		8AAF7E0A17D4B62E003F041F /* BaoHeWan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E0917D4B62E003F041F /* BaoHeWan.m */; };
+		8AAF7E0D17D4B645003F041F /* XieLiTing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E0C17D4B645003F041F /* XieLiTing.m */; };
+		8AAF7E1017D4B656003F041F /* Quick.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E0F17D4B656003F041F /* Quick.m */; };
+		8AAF7E1317D4B67D003F041F /* HanXiaoBanBuDian.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF7E1217D4B67D003F041F /* HanXiaoBanBuDian.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A36F12817D4358A00BB9342 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8A36F13517D4358A00BB9342 /* ClassDemo01.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A36F12A17D4358A00BB9342 /* ClassDemo01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassDemo01; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A36F12D17D4358A00BB9342 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A36F13017D4358A00BB9342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A36F13317D4358A00BB9342 /* ClassDemo01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassDemo01-Prefix.pch"; sourceTree = "<group>"; };
+		8A36F13417D4358A00BB9342 /* ClassDemo01.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ClassDemo01.1; sourceTree = "<group>"; };
+		8A36F13B17D43CF600BB9342 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8A36F13C17D43CF600BB9342 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8A36F13E17D43E4900BB9342 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		8A36F13F17D43E4900BB9342 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		8A36F14117D441D200BB9342 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		8A36F14217D441D200BB9342 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		8AAF7DDE17D49976003F041F /* Shose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shose.h; sourceTree = "<group>"; };
+		8AAF7DDF17D49976003F041F /* Shose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shose.m; sourceTree = "<group>"; };
+		8AAF7DE117D49A50003F041F /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
+		8AAF7DE217D49A50003F041F /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
+		8AAF7DE717D4B4BA003F041F /* Lining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lining.h; sourceTree = "<group>"; };
+		8AAF7DE817D4B4BA003F041F /* Lining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lining.m; sourceTree = "<group>"; };
+		8AAF7DEA17D4B4CB003F041F /* Anta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anta.h; sourceTree = "<group>"; };
+		8AAF7DEB17D4B4CB003F041F /* Anta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anta.m; sourceTree = "<group>"; };
+		8AAF7DED17D4B4D4003F041F /* Nike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nike.h; sourceTree = "<group>"; };
+		8AAF7DEE17D4B4D4003F041F /* Nike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nike.m; sourceTree = "<group>"; };
+		8AAF7DF017D4B4E9003F041F /* Adidas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adidas.h; sourceTree = "<group>"; };
+		8AAF7DF117D4B4E9003F041F /* Adidas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adidas.m; sourceTree = "<group>"; };
+		8AAF7DF317D4B4F2003F041F /* puma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puma.h; sourceTree = "<group>"; };
+		8AAF7DF417D4B4F2003F041F /* puma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = puma.m; sourceTree = "<group>"; };
+		8AAF7DF617D4B509003F041F /* BMW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMW.h; sourceTree = "<group>"; };
+		8AAF7DF717D4B509003F041F /* BMW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMW.m; sourceTree = "<group>"; };
+		8AAF7DF917D4B521003F041F /* Banz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banz.h; sourceTree = "<group>"; };
+		8AAF7DFA17D4B521003F041F /* Banz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banz.m; sourceTree = "<group>"; };
+		8AAF7DFC17D4B535003F041F /* Audi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audi.h; sourceTree = "<group>"; };
+		8AAF7DFD17D4B535003F041F /* Audi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audi.m; sourceTree = "<group>"; };
+		8AAF7DFF17D4B560003F041F /* Vw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vw.h; sourceTree = "<group>"; };
+		8AAF7E0017D4B560003F041F /* Vw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vw.m; sourceTree = "<group>"; };
+		8AAF7E0217D4B5F7003F041F /* Cc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cc.h; sourceTree = "<group>"; };
+		8AAF7E0317D4B5F7003F041F /* Cc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cc.m; sourceTree = "<group>"; };
+		8AAF7E0517D4B61C003F041F /* GanMaoQing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GanMaoQing.h; sourceTree = "<group>"; };
+		8AAF7E0617D4B61C003F041F /* GanMaoQing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GanMaoQing.m; sourceTree = "<group>"; };
+		8AAF7E0817D4B62E003F041F /* BaoHeWan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoHeWan.h; sourceTree = "<group>"; };
+		8AAF7E0917D4B62E003F041F /* BaoHeWan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoHeWan.m; sourceTree = "<group>"; };
+		8AAF7E0B17D4B645003F041F /* XieLiTing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XieLiTing.h; sourceTree = "<group>"; };
+		8AAF7E0C17D4B645003F041F /* XieLiTing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XieLiTing.m; sourceTree = "<group>"; };
+		8AAF7E0E17D4B656003F041F /* Quick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quick.h; sourceTree = "<group>"; };
+		8AAF7E0F17D4B656003F041F /* Quick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quick.m; sourceTree = "<group>"; };
+		8AAF7E1117D4B67D003F041F /* HanXiaoBanBuDian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanXiaoBanBuDian.h; sourceTree = "<group>"; };
+		8AAF7E1217D4B67D003F041F /* HanXiaoBanBuDian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanXiaoBanBuDian.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A36F12717D4358A00BB9342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A36F12E17D4358A00BB9342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A36F12117D4358A00BB9342 = {
+			isa = PBXGroup;
+			children = (
+				8A36F12F17D4358A00BB9342 /* ClassDemo01 */,
+				8A36F12C17D4358A00BB9342 /* Frameworks */,
+				8A36F12B17D4358A00BB9342 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A36F12B17D4358A00BB9342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A36F12A17D4358A00BB9342 /* ClassDemo01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A36F12C17D4358A00BB9342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A36F12D17D4358A00BB9342 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A36F12F17D4358A00BB9342 /* ClassDemo01 */ = {
+			isa = PBXGroup;
+			children = (
+				8A36F13017D4358A00BB9342 /* main.m */,
+				8A36F14117D441D200BB9342 /* Student.h */,
+				8A36F14217D441D200BB9342 /* Student.m */,
+				8A36F13B17D43CF600BB9342 /* Person.h */,
+				8A36F13C17D43CF600BB9342 /* Person.m */,
+				8AAF7DE417D4B460003F041F /* Car */,
+				8AAF7DE517D4B46E003F041F /* Medicine */,
+				8AAF7DE617D4B488003F041F /* Shose */,
+				8A36F13417D4358A00BB9342 /* ClassDemo01.1 */,
+				8A36F13217D4358A00BB9342 /* Supporting Files */,
+			);
+			path = ClassDemo01;
+			sourceTree = "<group>";
+		};
+		8A36F13217D4358A00BB9342 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A36F13317D4358A00BB9342 /* ClassDemo01-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AAF7DE417D4B460003F041F /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				8A36F13E17D43E4900BB9342 /* Car.h */,
+				8A36F13F17D43E4900BB9342 /* Car.m */,
+				8AAF7DF617D4B509003F041F /* BMW.h */,
+				8AAF7DF717D4B509003F041F /* BMW.m */,
+				8AAF7DF917D4B521003F041F /* Banz.h */,
+				8AAF7DFA17D4B521003F041F /* Banz.m */,
+				8AAF7DFC17D4B535003F041F /* Audi.h */,
+				8AAF7DFD17D4B535003F041F /* Audi.m */,
+				8AAF7DFF17D4B560003F041F /* Vw.h */,
+				8AAF7E0017D4B560003F041F /* Vw.m */,
+				8AAF7E0217D4B5F7003F041F /* Cc.h */,
+				8AAF7E0317D4B5F7003F041F /* Cc.m */,
+			);
+			name = Car;
+			sourceTree = "<group>";
+		};
+		8AAF7DE517D4B46E003F041F /* Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF7DE117D49A50003F041F /* Medicine.h */,
+				8AAF7DE217D49A50003F041F /* Medicine.m */,
+				8AAF7E0517D4B61C003F041F /* GanMaoQing.h */,
+				8AAF7E0617D4B61C003F041F /* GanMaoQing.m */,
+				8AAF7E0B17D4B645003F041F /* XieLiTing.h */,
+				8AAF7E0C17D4B645003F041F /* XieLiTing.m */,
+				8AAF7E0E17D4B656003F041F /* Quick.h */,
+				8AAF7E0F17D4B656003F041F /* Quick.m */,
+				8AAF7E1117D4B67D003F041F /* HanXiaoBanBuDian.h */,
+				8AAF7E1217D4B67D003F041F /* HanXiaoBanBuDian.m */,
+				8AAF7E0817D4B62E003F041F /* BaoHeWan.h */,
+				8AAF7E0917D4B62E003F041F /* BaoHeWan.m */,
+			);
+			name = Medicine;
+			sourceTree = "<group>";
+		};
+		8AAF7DE617D4B488003F041F /* Shose */ = {
+			isa = PBXGroup;
+			children = (
+				8AAF7DDE17D49976003F041F /* Shose.h */,
+				8AAF7DDF17D49976003F041F /* Shose.m */,
+				8AAF7DEA17D4B4CB003F041F /* Anta.h */,
+				8AAF7DEB17D4B4CB003F041F /* Anta.m */,
+				8AAF7DED17D4B4D4003F041F /* Nike.h */,
+				8AAF7DEE17D4B4D4003F041F /* Nike.m */,
+				8AAF7DF017D4B4E9003F041F /* Adidas.h */,
+				8AAF7DF117D4B4E9003F041F /* Adidas.m */,
+				8AAF7DF317D4B4F2003F041F /* puma.h */,
+				8AAF7DF417D4B4F2003F041F /* puma.m */,
+				8AAF7DE717D4B4BA003F041F /* Lining.h */,
+				8AAF7DE817D4B4BA003F041F /* Lining.m */,
+			);
+			name = Shose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A36F12917D4358A00BB9342 /* ClassDemo01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A36F13817D4358A00BB9342 /* Build configuration list for PBXNativeTarget "ClassDemo01" */;
+			buildPhases = (
+				8A36F12617D4358A00BB9342 /* Sources */,
+				8A36F12717D4358A00BB9342 /* Frameworks */,
+				8A36F12817D4358A00BB9342 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassDemo01;
+			productName = ClassDemo01;
+			productReference = 8A36F12A17D4358A00BB9342 /* ClassDemo01 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A36F12217D4358A00BB9342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Duger;
+			};
+			buildConfigurationList = 8A36F12517D4358A00BB9342 /* Build configuration list for PBXProject "ClassDemo01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A36F12117D4358A00BB9342;
+			productRefGroup = 8A36F12B17D4358A00BB9342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A36F12917D4358A00BB9342 /* ClassDemo01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A36F12617D4358A00BB9342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A36F13117D4358A00BB9342 /* main.m in Sources */,
+				8A36F13D17D43CF600BB9342 /* Person.m in Sources */,
+				8A36F14017D43E4900BB9342 /* Car.m in Sources */,
+				8A36F14317D441D200BB9342 /* Student.m in Sources */,
+				8AAF7DE017D49976003F041F /* Shose.m in Sources */,
+				8AAF7DE317D49A50003F041F /* Medicine.m in Sources */,
+				8AAF7DE917D4B4BA003F041F /* Lining.m in Sources */,
+				8AAF7DEC17D4B4CB003F041F /* Anta.m in Sources */,
+				8AAF7DEF17D4B4D4003F041F /* Nike.m in Sources */,
+				8AAF7DF217D4B4E9003F041F /* Adidas.m in Sources */,
+				8AAF7DF517D4B4F2003F041F /* puma.m in Sources */,
+				8AAF7DF817D4B509003F041F /* BMW.m in Sources */,
+				8AAF7DFB17D4B521003F041F /* Banz.m in Sources */,
+				8AAF7DFE17D4B535003F041F /* Audi.m in Sources */,
+				8AAF7E0117D4B560003F041F /* Vw.m in Sources */,
+				8AAF7E0417D4B5F7003F041F /* Cc.m in Sources */,
+				8AAF7E0717D4B61C003F041F /* GanMaoQing.m in Sources */,
+				8AAF7E0A17D4B62E003F041F /* BaoHeWan.m in Sources */,
+				8AAF7E0D17D4B645003F041F /* XieLiTing.m in Sources */,
+				8AAF7E1017D4B656003F041F /* Quick.m in Sources */,
+				8AAF7E1317D4B67D003F041F /* HanXiaoBanBuDian.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A36F13617D4358A00BB9342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A36F13717D4358A00BB9342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8A36F13917D4358A00BB9342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassDemo01/ClassDemo01-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A36F13A17D4358A00BB9342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClassDemo01/ClassDemo01-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A36F12517D4358A00BB9342 /* Build configuration list for PBXProject "ClassDemo01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A36F13617D4358A00BB9342 /* Debug */,
+				8A36F13717D4358A00BB9342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A36F13817D4358A00BB9342 /* Build configuration list for PBXNativeTarget "ClassDemo01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A36F13917D4358A00BB9342 /* Debug */,
+				8A36F13A17D4358A00BB9342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A36F12217D4358A00BB9342 /* Project object */;
+}

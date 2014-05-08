@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2C68DF17E3352800CA5D16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C68DE17E3352800CA5D16 /* UIKit.framework */; };
+		8A2C68E117E3352800CA5D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C68E017E3352800CA5D16 /* Foundation.framework */; };
+		8A2C68E317E3352800CA5D16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C68E217E3352800CA5D16 /* CoreGraphics.framework */; };
+		8A2C68E917E3352800CA5D16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68E717E3352800CA5D16 /* InfoPlist.strings */; };
+		8A2C68EB17E3352800CA5D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68EA17E3352800CA5D16 /* main.m */; };
+		8A2C68EF17E3352900CA5D16 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68EE17E3352900CA5D16 /* WFAppDelegate.m */; };
+		8A2C68F117E3352900CA5D16 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68F017E3352900CA5D16 /* Default.png */; };
+		8A2C68F317E3352900CA5D16 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68F217E3352900CA5D16 /* Default@2x.png */; };
+		8A2C68F517E3352900CA5D16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68F417E3352900CA5D16 /* Default-568h@2x.png */; };
+		8A2C68F817E3352900CA5D16 /* WFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68F717E3352900CA5D16 /* WFViewController.m */; };
+		8A2C68FB17E3352900CA5D16 /* WFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68F917E3352900CA5D16 /* WFViewController.xib */; };
+		8A2C690417E3355100CA5D16 /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C690317E3355100CA5D16 /* customButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A2C68DB17E3352800CA5D16 /* LightGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2C68DE17E3352800CA5D16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A2C68E017E3352800CA5D16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A2C68E217E3352800CA5D16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A2C68E617E3352800CA5D16 /* LightGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightGame-Info.plist"; sourceTree = "<group>"; };
+		8A2C68E817E3352800CA5D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A2C68EA17E3352800CA5D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A2C68EC17E3352900CA5D16 /* LightGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightGame-Prefix.pch"; sourceTree = "<group>"; };
+		8A2C68ED17E3352900CA5D16 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		8A2C68EE17E3352900CA5D16 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		8A2C68F017E3352900CA5D16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A2C68F217E3352900CA5D16 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A2C68F417E3352900CA5D16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A2C68F617E3352900CA5D16 /* WFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFViewController.h; sourceTree = "<group>"; };
+		8A2C68F717E3352900CA5D16 /* WFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFViewController.m; sourceTree = "<group>"; };
+		8A2C68FA17E3352900CA5D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WFViewController.xib; sourceTree = "<group>"; };
+		8A2C690217E3355100CA5D16 /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customButton.h; sourceTree = "<group>"; };
+		8A2C690317E3355100CA5D16 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A2C68D817E3352800CA5D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C68DF17E3352800CA5D16 /* UIKit.framework in Frameworks */,
+				8A2C68E117E3352800CA5D16 /* Foundation.framework in Frameworks */,
+				8A2C68E317E3352800CA5D16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A2C68D217E3352800CA5D16 = {
+			isa = PBXGroup;
+			children = (
+				8A2C68E417E3352800CA5D16 /* LightGame */,
+				8A2C68DD17E3352800CA5D16 /* Frameworks */,
+				8A2C68DC17E3352800CA5D16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2C68DC17E3352800CA5D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C68DB17E3352800CA5D16 /* LightGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2C68DD17E3352800CA5D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C68DE17E3352800CA5D16 /* UIKit.framework */,
+				8A2C68E017E3352800CA5D16 /* Foundation.framework */,
+				8A2C68E217E3352800CA5D16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2C68E417E3352800CA5D16 /* LightGame */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C690117E3353800CA5D16 /* customButton */,
+				8A2C68ED17E3352900CA5D16 /* WFAppDelegate.h */,
+				8A2C68EE17E3352900CA5D16 /* WFAppDelegate.m */,
+				8A2C68F617E3352900CA5D16 /* WFViewController.h */,
+				8A2C68F717E3352900CA5D16 /* WFViewController.m */,
+				8A2C68F917E3352900CA5D16 /* WFViewController.xib */,
+				8A2C68E517E3352800CA5D16 /* Supporting Files */,
+			);
+			path = LightGame;
+			sourceTree = "<group>";
+		};
+		8A2C68E517E3352800CA5D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C68E617E3352800CA5D16 /* LightGame-Info.plist */,
+				8A2C68E717E3352800CA5D16 /* InfoPlist.strings */,
+				8A2C68EA17E3352800CA5D16 /* main.m */,
+				8A2C68EC17E3352900CA5D16 /* LightGame-Prefix.pch */,
+				8A2C68F017E3352900CA5D16 /* Default.png */,
+				8A2C68F217E3352900CA5D16 /* Default@2x.png */,
+				8A2C68F417E3352900CA5D16 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A2C690117E3353800CA5D16 /* customButton */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C690217E3355100CA5D16 /* customButton.h */,
+				8A2C690317E3355100CA5D16 /* customButton.m */,
+			);
+			name = customButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A2C68DA17E3352800CA5D16 /* LightGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2C68FE17E3352900CA5D16 /* Build configuration list for PBXNativeTarget "LightGame" */;
+			buildPhases = (
+				8A2C68D717E3352800CA5D16 /* Sources */,
+				8A2C68D817E3352800CA5D16 /* Frameworks */,
+				8A2C68D917E3352800CA5D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightGame;
+			productName = LightGame;
+			productReference = 8A2C68DB17E3352800CA5D16 /* LightGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2C68D317E3352800CA5D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Duger;
+			};
+			buildConfigurationList = 8A2C68D617E3352800CA5D16 /* Build configuration list for PBXProject "LightGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A2C68D217E3352800CA5D16;
+			productRefGroup = 8A2C68DC17E3352800CA5D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A2C68DA17E3352800CA5D16 /* LightGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A2C68D917E3352800CA5D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C68E917E3352800CA5D16 /* InfoPlist.strings in Resources */,
+				8A2C68F117E3352900CA5D16 /* Default.png in Resources */,
+				8A2C68F317E3352900CA5D16 /* Default@2x.png in Resources */,
+				8A2C68F517E3352900CA5D16 /* Default-568h@2x.png in Resources */,
+				8A2C68FB17E3352900CA5D16 /* WFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A2C68D717E3352800CA5D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C68EB17E3352800CA5D16 /* main.m in Sources */,
+				8A2C68EF17E3352900CA5D16 /* WFAppDelegate.m in Sources */,
+				8A2C68F817E3352900CA5D16 /* WFViewController.m in Sources */,
+				8A2C690417E3355100CA5D16 /* customButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A2C68E717E3352800CA5D16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2C68E817E3352800CA5D16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A2C68F917E3352900CA5D16 /* WFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2C68FA17E3352900CA5D16 /* en */,
+			);
+			name = WFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A2C68FC17E3352900CA5D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A2C68FD17E3352900CA5D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A2C68FF17E3352900CA5D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightGame/LightGame-Prefix.pch";
+				INFOPLIST_FILE = "LightGame/LightGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A2C690017E3352900CA5D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightGame/LightGame-Prefix.pch";
+				INFOPLIST_FILE = "LightGame/LightGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2C68D617E3352800CA5D16 /* Build configuration list for PBXProject "LightGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2C68FC17E3352900CA5D16 /* Debug */,
+				8A2C68FD17E3352900CA5D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2C68FE17E3352900CA5D16 /* Build configuration list for PBXNativeTarget "LightGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2C68FF17E3352900CA5D16 /* Debug */,
+				8A2C690017E3352900CA5D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2C68D317E3352800CA5D16 /* Project object */;
+}

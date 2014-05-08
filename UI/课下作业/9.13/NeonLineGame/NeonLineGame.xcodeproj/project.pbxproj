@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2C688D17E2F76E00CA5D16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C688C17E2F76E00CA5D16 /* UIKit.framework */; };
+		8A2C688F17E2F76E00CA5D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C688E17E2F76E00CA5D16 /* Foundation.framework */; };
+		8A2C689117E2F76E00CA5D16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C689017E2F76E00CA5D16 /* CoreGraphics.framework */; };
+		8A2C689717E2F76E00CA5D16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C689517E2F76E00CA5D16 /* InfoPlist.strings */; };
+		8A2C689917E2F76E00CA5D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C689817E2F76E00CA5D16 /* main.m */; };
+		8A2C689D17E2F76E00CA5D16 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C689C17E2F76E00CA5D16 /* WFAppDelegate.m */; };
+		8A2C689F17E2F76E00CA5D16 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C689E17E2F76E00CA5D16 /* Default.png */; };
+		8A2C68A117E2F76E00CA5D16 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68A017E2F76E00CA5D16 /* Default@2x.png */; };
+		8A2C68A317E2F76E00CA5D16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68A217E2F76E00CA5D16 /* Default-568h@2x.png */; };
+		8A2C68A617E2F76E00CA5D16 /* WFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68A517E2F76E00CA5D16 /* WFViewController.m */; };
+		8A2C68A917E2F76E00CA5D16 /* WFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68A717E2F76E00CA5D16 /* WFViewController.xib */; };
+		8A2C68B417E3074900CA5D16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C688C17E2F76E00CA5D16 /* UIKit.framework */; };
+		8A2C68B517E3074900CA5D16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C688E17E2F76E00CA5D16 /* Foundation.framework */; };
+		8A2C68B617E3074900CA5D16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2C689017E2F76E00CA5D16 /* CoreGraphics.framework */; };
+		8A2C68BC17E3074900CA5D16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68BA17E3074900CA5D16 /* InfoPlist.strings */; };
+		8A2C68BE17E3074900CA5D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68BD17E3074900CA5D16 /* main.m */; };
+		8A2C68C217E3074900CA5D16 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68C117E3074900CA5D16 /* WFAppDelegate.m */; };
+		8A2C68C417E3074900CA5D16 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68C317E3074900CA5D16 /* Default.png */; };
+		8A2C68C617E3074900CA5D16 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68C517E3074900CA5D16 /* Default@2x.png */; };
+		8A2C68C817E3074900CA5D16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68C717E3074900CA5D16 /* Default-568h@2x.png */; };
+		8A2C68CB17E3074900CA5D16 /* WFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C68CA17E3074900CA5D16 /* WFViewController.m */; };
+		8A2C68CE17E3074900CA5D16 /* WFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2C68CC17E3074900CA5D16 /* WFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A2C688917E2F76E00CA5D16 /* NeonLineGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonLineGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2C688C17E2F76E00CA5D16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A2C688E17E2F76E00CA5D16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A2C689017E2F76E00CA5D16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A2C689417E2F76E00CA5D16 /* NeonLineGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeonLineGame-Info.plist"; sourceTree = "<group>"; };
+		8A2C689617E2F76E00CA5D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A2C689817E2F76E00CA5D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A2C689A17E2F76E00CA5D16 /* NeonLineGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeonLineGame-Prefix.pch"; sourceTree = "<group>"; };
+		8A2C689B17E2F76E00CA5D16 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		8A2C689C17E2F76E00CA5D16 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		8A2C689E17E2F76E00CA5D16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A2C68A017E2F76E00CA5D16 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A2C68A217E2F76E00CA5D16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A2C68A417E2F76E00CA5D16 /* WFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFViewController.h; sourceTree = "<group>"; };
+		8A2C68A517E2F76E00CA5D16 /* WFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFViewController.m; sourceTree = "<group>"; };
+		8A2C68A817E2F76E00CA5D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WFViewController.xib; sourceTree = "<group>"; };
+		8A2C68B317E3074900CA5D16 /* NeonLineGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonLineGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2C68B917E3074900CA5D16 /* NeonLineGame2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeonLineGame2-Info.plist"; sourceTree = "<group>"; };
+		8A2C68BB17E3074900CA5D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A2C68BD17E3074900CA5D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A2C68BF17E3074900CA5D16 /* NeonLineGame2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeonLineGame2-Prefix.pch"; sourceTree = "<group>"; };
+		8A2C68C017E3074900CA5D16 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		8A2C68C117E3074900CA5D16 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		8A2C68C317E3074900CA5D16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A2C68C517E3074900CA5D16 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A2C68C717E3074900CA5D16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A2C68C917E3074900CA5D16 /* WFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFViewController.h; sourceTree = "<group>"; };
+		8A2C68CA17E3074900CA5D16 /* WFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFViewController.m; sourceTree = "<group>"; };
+		8A2C68CD17E3074900CA5D16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A2C688617E2F76E00CA5D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C688D17E2F76E00CA5D16 /* UIKit.framework in Frameworks */,
+				8A2C688F17E2F76E00CA5D16 /* Foundation.framework in Frameworks */,
+				8A2C689117E2F76E00CA5D16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2C68B017E3074900CA5D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C68B417E3074900CA5D16 /* UIKit.framework in Frameworks */,
+				8A2C68B517E3074900CA5D16 /* Foundation.framework in Frameworks */,
+				8A2C68B617E3074900CA5D16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A2C688017E2F76E00CA5D16 = {
+			isa = PBXGroup;
+			children = (
+				8A2C689217E2F76E00CA5D16 /* NeonLineGame */,
+				8A2C68B717E3074900CA5D16 /* NeonLineGame2 */,
+				8A2C688B17E2F76E00CA5D16 /* Frameworks */,
+				8A2C688A17E2F76E00CA5D16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2C688A17E2F76E00CA5D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C688917E2F76E00CA5D16 /* NeonLineGame.app */,
+				8A2C68B317E3074900CA5D16 /* NeonLineGame2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2C688B17E2F76E00CA5D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C688C17E2F76E00CA5D16 /* UIKit.framework */,
+				8A2C688E17E2F76E00CA5D16 /* Foundation.framework */,
+				8A2C689017E2F76E00CA5D16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2C689217E2F76E00CA5D16 /* NeonLineGame */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C689B17E2F76E00CA5D16 /* WFAppDelegate.h */,
+				8A2C689C17E2F76E00CA5D16 /* WFAppDelegate.m */,
+				8A2C68A417E2F76E00CA5D16 /* WFViewController.h */,
+				8A2C68A517E2F76E00CA5D16 /* WFViewController.m */,
+				8A2C68A717E2F76E00CA5D16 /* WFViewController.xib */,
+				8A2C689317E2F76E00CA5D16 /* Supporting Files */,
+			);
+			path = NeonLineGame;
+			sourceTree = "<group>";
+		};
+		8A2C689317E2F76E00CA5D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C689417E2F76E00CA5D16 /* NeonLineGame-Info.plist */,
+				8A2C689517E2F76E00CA5D16 /* InfoPlist.strings */,
+				8A2C689817E2F76E00CA5D16 /* main.m */,
+				8A2C689A17E2F76E00CA5D16 /* NeonLineGame-Prefix.pch */,
+				8A2C689E17E2F76E00CA5D16 /* Default.png */,
+				8A2C68A017E2F76E00CA5D16 /* Default@2x.png */,
+				8A2C68A217E2F76E00CA5D16 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A2C68B717E3074900CA5D16 /* NeonLineGame2 */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C68C017E3074900CA5D16 /* WFAppDelegate.h */,
+				8A2C68C117E3074900CA5D16 /* WFAppDelegate.m */,
+				8A2C68C917E3074900CA5D16 /* WFViewController.h */,
+				8A2C68CA17E3074900CA5D16 /* WFViewController.m */,
+				8A2C68CC17E3074900CA5D16 /* WFViewController.xib */,
+				8A2C68B817E3074900CA5D16 /* Supporting Files */,
+			);
+			path = NeonLineGame2;
+			sourceTree = "<group>";
+		};
+		8A2C68B817E3074900CA5D16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C68B917E3074900CA5D16 /* NeonLineGame2-Info.plist */,
+				8A2C68BA17E3074900CA5D16 /* InfoPlist.strings */,
+				8A2C68BD17E3074900CA5D16 /* main.m */,
+				8A2C68BF17E3074900CA5D16 /* NeonLineGame2-Prefix.pch */,
+				8A2C68C317E3074900CA5D16 /* Default.png */,
+				8A2C68C517E3074900CA5D16 /* Default@2x.png */,
+				8A2C68C717E3074900CA5D16 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A2C688817E2F76E00CA5D16 /* NeonLineGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2C68AC17E2F76E00CA5D16 /* Build configuration list for PBXNativeTarget "NeonLineGame" */;
+			buildPhases = (
+				8A2C688517E2F76E00CA5D16 /* Sources */,
+				8A2C688617E2F76E00CA5D16 /* Frameworks */,
+				8A2C688717E2F76E00CA5D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonLineGame;
+			productName = NeonLineGame;
+			productReference = 8A2C688917E2F76E00CA5D16 /* NeonLineGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A2C68B217E3074900CA5D16 /* NeonLineGame2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2C68CF17E3074900CA5D16 /* Build configuration list for PBXNativeTarget "NeonLineGame2" */;
+			buildPhases = (
+				8A2C68AF17E3074900CA5D16 /* Sources */,
+				8A2C68B017E3074900CA5D16 /* Frameworks */,
+				8A2C68B117E3074900CA5D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonLineGame2;
+			productName = NeonLineGame2;
+			productReference = 8A2C68B317E3074900CA5D16 /* NeonLineGame2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2C688117E2F76E00CA5D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Duger;
+			};
+			buildConfigurationList = 8A2C688417E2F76E00CA5D16 /* Build configuration list for PBXProject "NeonLineGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A2C688017E2F76E00CA5D16;
+			productRefGroup = 8A2C688A17E2F76E00CA5D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A2C688817E2F76E00CA5D16 /* NeonLineGame */,
+				8A2C68B217E3074900CA5D16 /* NeonLineGame2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A2C688717E2F76E00CA5D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C689717E2F76E00CA5D16 /* InfoPlist.strings in Resources */,
+				8A2C689F17E2F76E00CA5D16 /* Default.png in Resources */,
+				8A2C68A117E2F76E00CA5D16 /* Default@2x.png in Resources */,
+				8A2C68A317E2F76E00CA5D16 /* Default-568h@2x.png in Resources */,
+				8A2C68A917E2F76E00CA5D16 /* WFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2C68B117E3074900CA5D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C68BC17E3074900CA5D16 /* InfoPlist.strings in Resources */,
+				8A2C68C417E3074900CA5D16 /* Default.png in Resources */,
+				8A2C68C617E3074900CA5D16 /* Default@2x.png in Resources */,
+				8A2C68C817E3074900CA5D16 /* Default-568h@2x.png in Resources */,
+				8A2C68CE17E3074900CA5D16 /* WFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A2C688517E2F76E00CA5D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C689917E2F76E00CA5D16 /* main.m in Sources */,
+				8A2C689D17E2F76E00CA5D16 /* WFAppDelegate.m in Sources */,
+				8A2C68A617E2F76E00CA5D16 /* WFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2C68AF17E3074900CA5D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2C68BE17E3074900CA5D16 /* main.m in Sources */,
+				8A2C68C217E3074900CA5D16 /* WFAppDelegate.m in Sources */,
+				8A2C68CB17E3074900CA5D16 /* WFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A2C689517E2F76E00CA5D16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2C689617E2F76E00CA5D16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A2C68A717E2F76E00CA5D16 /* WFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2C68A817E2F76E00CA5D16 /* en */,
+			);
+			name = WFViewController.xib;
+			sourceTree = "<group>";
+		};
+		8A2C68BA17E3074900CA5D16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2C68BB17E3074900CA5D16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A2C68CC17E3074900CA5D16 /* WFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2C68CD17E3074900CA5D16 /* en */,
+			);
+			name = WFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A2C68AA17E2F76E00CA5D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A2C68AB17E2F76E00CA5D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A2C68AD17E2F76E00CA5D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeonLineGame/NeonLineGame-Prefix.pch";
+				INFOPLIST_FILE = "NeonLineGame/NeonLineGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A2C68AE17E2F76E00CA5D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeonLineGame/NeonLineGame-Prefix.pch";
+				INFOPLIST_FILE = "NeonLineGame/NeonLineGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A2C68D017E3074900CA5D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeonLineGame2/NeonLineGame2-Prefix.pch";
+				INFOPLIST_FILE = "NeonLineGame2/NeonLineGame2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A2C68D117E3074900CA5D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeonLineGame2/NeonLineGame2-Prefix.pch";
+				INFOPLIST_FILE = "NeonLineGame2/NeonLineGame2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2C688417E2F76E00CA5D16 /* Build configuration list for PBXProject "NeonLineGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2C68AA17E2F76E00CA5D16 /* Debug */,
+				8A2C68AB17E2F76E00CA5D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2C68AC17E2F76E00CA5D16 /* Build configuration list for PBXNativeTarget "NeonLineGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2C68AD17E2F76E00CA5D16 /* Debug */,
+				8A2C68AE17E2F76E00CA5D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A2C68CF17E3074900CA5D16 /* Build configuration list for PBXNativeTarget "NeonLineGame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2C68D017E3074900CA5D16 /* Debug */,
+				8A2C68D117E3074900CA5D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2C688117E2F76E00CA5D16 /* Project object */;
+}

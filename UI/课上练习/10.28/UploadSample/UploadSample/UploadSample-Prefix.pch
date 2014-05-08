@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'UploadSample' target in the 'UploadSample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define kRandomColor [UIColor colorWithRed:(arc4random() % 1000 / 1000.0f) green:(arc4random() % 1000 / 1000.0f) blue:(arc4random() % 1000 / 1000.0f) alpha:1.0f]
+
+#define kManagerUpload_URL @"http://124.205.147.26/student/class_10/manager/upload.php"
+//上传成功后提示信息
+#define kUploadSuccessedNotification    @"UploadSuccessed"
+#import "Singleton.h"

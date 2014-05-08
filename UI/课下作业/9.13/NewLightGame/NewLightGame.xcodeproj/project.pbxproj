@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2533E317E466370029E087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2533E217E466370029E087 /* UIKit.framework */; };
+		8A2533E517E466370029E087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2533E417E466370029E087 /* Foundation.framework */; };
+		8A2533E717E466370029E087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2533E617E466370029E087 /* CoreGraphics.framework */; };
+		8A2533ED17E466370029E087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A2533EB17E466370029E087 /* InfoPlist.strings */; };
+		8A2533EF17E466370029E087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2533EE17E466370029E087 /* main.m */; };
+		8A2533F317E466370029E087 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2533F217E466370029E087 /* WFAppDelegate.m */; };
+		8A2533F517E466370029E087 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2533F417E466370029E087 /* Default.png */; };
+		8A2533F717E466370029E087 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2533F617E466370029E087 /* Default@2x.png */; };
+		8A2533F917E466370029E087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2533F817E466370029E087 /* Default-568h@2x.png */; };
+		8A2533FC17E466370029E087 /* WFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2533FB17E466370029E087 /* WFViewController.m */; };
+		8A2533FF17E466370029E087 /* WFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A2533FD17E466370029E087 /* WFViewController.xib */; };
+		8A25340817E467980029E087 /* customView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A25340717E467980029E087 /* customView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A2533DF17E466370029E087 /* NewLightGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewLightGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2533E217E466370029E087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A2533E417E466370029E087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A2533E617E466370029E087 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A2533EA17E466370029E087 /* NewLightGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewLightGame-Info.plist"; sourceTree = "<group>"; };
+		8A2533EC17E466370029E087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A2533EE17E466370029E087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A2533F017E466370029E087 /* NewLightGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewLightGame-Prefix.pch"; sourceTree = "<group>"; };
+		8A2533F117E466370029E087 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		8A2533F217E466370029E087 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		8A2533F417E466370029E087 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A2533F617E466370029E087 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A2533F817E466370029E087 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A2533FA17E466370029E087 /* WFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFViewController.h; sourceTree = "<group>"; };
+		8A2533FB17E466370029E087 /* WFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFViewController.m; sourceTree = "<group>"; };
+		8A2533FE17E466370029E087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WFViewController.xib; sourceTree = "<group>"; };
+		8A25340617E467980029E087 /* customView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customView.h; sourceTree = "<group>"; };
+		8A25340717E467980029E087 /* customView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A2533DC17E466370029E087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2533E317E466370029E087 /* UIKit.framework in Frameworks */,
+				8A2533E517E466370029E087 /* Foundation.framework in Frameworks */,
+				8A2533E717E466370029E087 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A2533D617E466370029E087 = {
+			isa = PBXGroup;
+			children = (
+				8A2533E817E466370029E087 /* NewLightGame */,
+				8A2533E117E466370029E087 /* Frameworks */,
+				8A2533E017E466370029E087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2533E017E466370029E087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2533DF17E466370029E087 /* NewLightGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2533E117E466370029E087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2533E217E466370029E087 /* UIKit.framework */,
+				8A2533E417E466370029E087 /* Foundation.framework */,
+				8A2533E617E466370029E087 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2533E817E466370029E087 /* NewLightGame */ = {
+			isa = PBXGroup;
+			children = (
+				8A25340517E4663E0029E087 /* customView */,
+				8A2533F117E466370029E087 /* WFAppDelegate.h */,
+				8A2533F217E466370029E087 /* WFAppDelegate.m */,
+				8A2533FA17E466370029E087 /* WFViewController.h */,
+				8A2533FB17E466370029E087 /* WFViewController.m */,
+				8A2533FD17E466370029E087 /* WFViewController.xib */,
+				8A2533E917E466370029E087 /* Supporting Files */,
+			);
+			path = NewLightGame;
+			sourceTree = "<group>";
+		};
+		8A2533E917E466370029E087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2533EA17E466370029E087 /* NewLightGame-Info.plist */,
+				8A2533EB17E466370029E087 /* InfoPlist.strings */,
+				8A2533EE17E466370029E087 /* main.m */,
+				8A2533F017E466370029E087 /* NewLightGame-Prefix.pch */,
+				8A2533F417E466370029E087 /* Default.png */,
+				8A2533F617E466370029E087 /* Default@2x.png */,
+				8A2533F817E466370029E087 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A25340517E4663E0029E087 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				8A25340617E467980029E087 /* customView.h */,
+				8A25340717E467980029E087 /* customView.m */,
+			);
+			name = customView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A2533DE17E466370029E087 /* NewLightGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A25340217E466370029E087 /* Build configuration list for PBXNativeTarget "NewLightGame" */;
+			buildPhases = (
+				8A2533DB17E466370029E087 /* Sources */,
+				8A2533DC17E466370029E087 /* Frameworks */,
+				8A2533DD17E466370029E087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewLightGame;
+			productName = NewLightGame;
+			productReference = 8A2533DF17E466370029E087 /* NewLightGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2533D717E466370029E087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Duger;
+			};
+			buildConfigurationList = 8A2533DA17E466370029E087 /* Build configuration list for PBXProject "NewLightGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A2533D617E466370029E087;
+			productRefGroup = 8A2533E017E466370029E087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A2533DE17E466370029E087 /* NewLightGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A2533DD17E466370029E087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2533ED17E466370029E087 /* InfoPlist.strings in Resources */,
+				8A2533F517E466370029E087 /* Default.png in Resources */,
+				8A2533F717E466370029E087 /* Default@2x.png in Resources */,
+				8A2533F917E466370029E087 /* Default-568h@2x.png in Resources */,
+				8A2533FF17E466370029E087 /* WFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A2533DB17E466370029E087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2533EF17E466370029E087 /* main.m in Sources */,
+				8A2533F317E466370029E087 /* WFAppDelegate.m in Sources */,
+				8A2533FC17E466370029E087 /* WFViewController.m in Sources */,
+				8A25340817E467980029E087 /* customView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A2533EB17E466370029E087 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2533EC17E466370029E087 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A2533FD17E466370029E087 /* WFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2533FE17E466370029E087 /* en */,
+			);
+			name = WFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A25340017E466370029E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A25340117E466370029E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A25340317E466370029E087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewLightGame/NewLightGame-Prefix.pch";
+				INFOPLIST_FILE = "NewLightGame/NewLightGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A25340417E466370029E087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewLightGame/NewLightGame-Prefix.pch";
+				INFOPLIST_FILE = "NewLightGame/NewLightGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2533DA17E466370029E087 /* Build configuration list for PBXProject "NewLightGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A25340017E466370029E087 /* Debug */,
+				8A25340117E466370029E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A25340217E466370029E087 /* Build configuration list for PBXNativeTarget "NewLightGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A25340317E466370029E087 /* Debug */,
+				8A25340417E466370029E087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2533D717E466370029E087 /* Project object */;
+}

@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'FileManagerSample' target in the 'FileManagerSample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#import <QuartzCore/QuartzCore.h>
+
+#import "UIColor+Addtion.h"
+#import "UIImage+Addtion.h"
+#import "NSDictionary+Addtion.h"

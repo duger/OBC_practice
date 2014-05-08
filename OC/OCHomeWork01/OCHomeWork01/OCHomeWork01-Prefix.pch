@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OCHomeWork01' target in the 'OCHomeWork01' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
